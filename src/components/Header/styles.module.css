@@ -20,3 +20,16 @@
     gap: 30px;
     list-style: none;
 }
+
+.navItems li:hover {
+    cursor: pointer;
+    color: #67E9B5;
+    transition: all .3s;
+}
+
+@media (max-width: 740px) {
+    .navItems {
+        display: none;
+        
+    }
+}

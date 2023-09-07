@@ -18,18 +18,31 @@ body {
     margin: 0 2rem;
 }
 
-button {
+.content h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.content button {
     color: #F5F5F5;
     background-color: #56D0A4;
     width: 10rem;
     padding: 1rem;
-    border-radius: 6px;
+    border-radius: 25px;
     border: none;
 }
 
+.content button:hover {
+    cursor: pointer;
+    background-color: #67E9B5;
+    transition: all .3s;
+}
+
 .wrapperImg {
-    width: 250px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
     align-items: center;
 }
@@ -53,6 +66,7 @@ button {
 .boardData {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     max-width: 10rem;
 }

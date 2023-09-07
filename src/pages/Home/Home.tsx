@@ -4,6 +4,7 @@ import homeImg from '../../assets/home-wrapper.svg'
 import document from '../../assets/icons/icon__document-primary.svg'
 import hands from '../../assets/icons/icon__hands-primary.svg'
 import money from '../../assets/icons/icon__money-primary.svg'
+import Footer from "../../footer/Footer"
 
 export default function Home() {
 
@@ -14,12 +15,13 @@ export default function Home() {
 
             <div className={styles.content}>
 
-            <h2> Flexible Ownership </h2>
-            <p>
-                Kafene helps all consumers buy the thing they want over time,
-                affordably. Credit and no credt check options are available.
-            </p>
-            <button>Start your Application</button>
+                <h2> Flexible Ownership </h2>
+                <p>
+                    Kafene helps all consumers buy the thing they want over time,
+                    affordably. Credit and no credt check options are available.
+                </p>
+                <button>Start your Application</button>
+
             </div>
 
             <div className={styles.wrapper}>
@@ -37,7 +39,7 @@ export default function Home() {
             <p>As low as $50 per month with terms to ownership from 1 to 2 years</p>
 
             <div className={styles.boardItems}>
-                
+
                 <div className={styles.boardData}>
                     <img src={document} alt="" />
 
@@ -64,8 +66,14 @@ export default function Home() {
                         Our application takes less time than making one cup of coffe
                     </p>
                 </div>
+
+                <div className="about">
+                    
+                </div>
             </div>
         </div>
+
+        <Footer />
     </>
   )
 }
