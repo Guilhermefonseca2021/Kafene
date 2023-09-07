@@ -1,0 +1,20 @@
+:root {
+  --white: '#F5F5F5',
+  --primary: '#56D0A4',
+
+  --green-100: '#CDECE6',
+}
+
+html {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #f2f2f2;
+
+  font-size: 400;
+  color: #222222;
+}
