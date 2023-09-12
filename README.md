@@ -21,13 +21,6 @@ Este projeto consiste em um site de venda de serviços, onde os usuários podem 
 
 <a href="https://kafene-ten.vercel.app/">Testar aplicacao agora. </a>
 
-
-<img width="1567" alt="kafene-presents" src="![kafene-site (2)](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0)">
-
-
-<img width="1567" alt="-kafene-presents" src="![Design sem nome](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/85dbcef7-df15-4749-9834-277b3ea615c6)">
-
-
 <img width="1567" alt="-kafene-presents" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0">
 
 
