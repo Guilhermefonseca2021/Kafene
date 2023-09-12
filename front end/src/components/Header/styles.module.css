@@ -15,13 +15,14 @@
     width: 100px;
 }
 
-.navItems {
-    display: flex;
-    gap: 30px;
+.navItems .li {
+    color: #454750;
+    text-decoration: none;
     list-style: none;
+    margin-left: .5rem;
 }
 
-.navItems li:hover {
+.navItems .li:hover {
     cursor: pointer;
     color: #67E9B5;
     transition: all .3s;
@@ -29,7 +30,6 @@
 
 @media (max-width: 740px) {
     .navItems {
-        display: none;
-        
+        display: none;   
     }
 }

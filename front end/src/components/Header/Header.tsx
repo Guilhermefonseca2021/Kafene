@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import logo from '../../assets/logo-kafene-black.svg'
 import styles from './styles.module.css'
 
@@ -10,9 +11,9 @@ export default function Header() {
             </div>
 
             <ul className={styles.navItems}>
-                <li>Home</li>
-                <li>About</li>
-                <li>FAQs</li>
+                <NavLink to='/' className={styles.li}>Home </NavLink>
+                <NavLink to='About' className={styles.li}>About</NavLink>
+                <NavLink to='/' className={styles.li}>FAQs</NavLink>
             </ul>
             </nav>
         </div>

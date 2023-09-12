@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden auto;
 }
 
 .container {
@@ -61,6 +62,7 @@ body {
     align-items: center;
     gap: 3rem;
     color: #56D0A4;
+    scroll-behavior: i;
 }
 
 .boardData {
@@ -83,8 +85,33 @@ body {
 @media (max-width: 740px) {
     .container {
         margin-bottom: 2rem;
+        margin-top: 5rem;
     }
 
+    .content h2 {
+        font-weight: 1rem;
+    }
+
+    .boardHeader {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .boardHeader h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .boardItems {
+        margin-top: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .2rem;
+        color: #56D0A4;
+        scroll-behavior: i;
+    }
+    
     .wrapperImg {
         display: none;
     }
