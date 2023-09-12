@@ -1,27 +1,30 @@
-# React + TypeScript + Vite
+# README - Venda de Serviços
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
+Este projeto consiste em um site de venda de serviços, onde os usuários podem encontrar e contratar profissionais para realizar diversos tipos de serviços.
 
-Currently, two official plugins are available:
+## Funcionalidades Principais
+- Cadastro de usuários: Os usuários podem criar uma conta no site, fornecendo informações como nome, e-mail e senha.
+- Busca de serviços: Os usuários podem pesquisar por serviços específicos utilizando palavras-chave ou categorias.
+- Visualização de perfis: Os usuários podem visualizar os perfis dos profissionais que oferecem os serviços, incluindo informações como experiência, qualificações e avaliações de outros clientes.
+- Contratação de serviços: Os usuários podem contratar os serviços desejados diretamente pelo site, entrando em contato com o profissional escolhido.
+- Avaliação de profissionais: Após a conclusão do serviço, os usuários podem avaliar e deixar um feedback sobre a experiência com o profissional contratado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1567" alt="kafene" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/10612fb7-8517-490c-9502-a3f31f30d758">
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
+- HTML, CSS e JavaScript para a criação da interface do site.
+- Backend com Node.js, com um banco de dados mySQL
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalação e Execução
+1. Clone o repositório para o seu ambiente de desenvolvimento local.
+3. Configure o backend e o banco de dados de acordo com as tecnologias utilizadas.
+4. Execute o servidor para que o site possa se comunicar com o backend.
 
-- Configure the top-level `parserOptions` property like this:
+<a href="https://kafene-ten.vercel.app/">Testar aplicacao agora. </a>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+<img width="1567" alt="-kafene-presents" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/9a162944-85bb-494f-b45b-ccfd167c01f1">
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribuição
+Contribuições são bem-vindas! Se você tiver alguma sugestão, correção de bugs ou melhorias para o projeto, fique à vontade para abrir uma issue ou um pull request.
+
