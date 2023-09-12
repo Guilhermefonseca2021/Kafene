@@ -10,10 +10,8 @@ Este projeto consiste em um site de venda de serviços, onde os usuários podem 
 - Contratação de serviços: Os usuários podem contratar os serviços desejados diretamente pelo site, entrando em contato com o profissional escolhido.
 - Avaliação de profissionais: Após a conclusão do serviço, os usuários podem avaliar e deixar um feedback sobre a experiência com o profissional contratado.
 
-<img width="1567" alt="kafene" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/10612fb7-8517-490c-9502-a3f31f30d758">
-
 ## Tecnologias Utilizadas
-- HTML, CSS e JavaScript para a criação da interface do site.
+- HTML, CSS e JavaScript, React para a criação da interface do site.
 - Backend com Node.js, com um banco de dados mySQL
 
 ## Instalação e Execução
@@ -23,7 +21,17 @@ Este projeto consiste em um site de venda de serviços, onde os usuários podem 
 
 <a href="https://kafene-ten.vercel.app/">Testar aplicacao agora. </a>
 
+
+<img width="1567" alt="kafene-presents" src="![kafene-site (2)](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0)">
+
+
 <img width="1567" alt="-kafene-presents" src="![Design sem nome](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/85dbcef7-df15-4749-9834-277b3ea615c6)">
+
+
+<img width="1567" alt="-kafene-presents" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0">
+
+
+
 
 ## Contribuição
 Contribuições são bem-vindas! Se você tiver alguma sugestão, correção de bugs ou melhorias para o projeto, fique à vontade para abrir uma issue ou um pull request.
