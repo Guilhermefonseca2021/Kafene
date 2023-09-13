@@ -34,7 +34,7 @@
 }
 
 .container .content form label {
-    font-size: 1rem;
+    font-size: .7rem;
 }
 
 .container .content form input {
@@ -47,7 +47,7 @@
 
 .container .content form button {
     padding: .5rem;
-    margin: .5rem 0;
+
     color: #273252;
     background-color: #67E9B5;;
     border-radius: 8px;

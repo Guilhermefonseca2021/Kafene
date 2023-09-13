@@ -14,4 +14,12 @@ const createUser = require('./controllers/managerUser');
 // routes
 app.use('/login', createUser)
 
-app.listen(3333, console.log("servidor online"));
+
+// database
+const connectDataBase = require("./database/connect");
+
+connectDataBase()
+    .then(() => { console.log('Conectado ao banco')})
+    .catch((error) => console.log(`Houve um erro ${error}`));
+
+app.listen(3333, console.log("servidor online"))
