@@ -27,7 +27,7 @@ export default function Login() {
 
     // tratar o envio para API
     await axios
-      .post("http://localhost:3333/login", data, headers)
+      .post("http://localhost:3333/cadastrar", data, headers)
       .then((response) => {
         setMessage(response.data.message);
       })

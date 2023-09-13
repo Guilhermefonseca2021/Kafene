@@ -12,7 +12,7 @@ const createUser = require('./controllers/managerUser');
 
 
 // routes
-app.use('/login', createUser)
+app.use('/cadastrar', createUser)
 
 
 // database
