@@ -24,6 +24,7 @@ export default function Login() {
     return (
         <div className='container'>
             <div className="content">
+                <div className="login-diver">
                 <h1>Login</h1>
 
                 <form onSubmit={createUser} >
@@ -35,6 +36,7 @@ export default function Login() {
 
                     <button>Enviar</button>
                 </form>
+                </div>
             </div>
         </div>
     )
