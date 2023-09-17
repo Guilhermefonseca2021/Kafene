@@ -3,6 +3,8 @@
 ## Descrição do Projeto
 Este projeto consiste em um site de venda de serviços, onde os usuários podem encontrar e contratar profissionais para realizar diversos tipos de serviços.
 
+![2023-09-16 00-31-32 (3)](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/ea74a947-0146-4ad6-9734-84eef5b94c64)
+
 ## Funcionalidades Principais
 - Cadastro de usuários: Os usuários podem criar uma conta no site, fornecendo informações como nome, e-mail e senha.
 - Busca de serviços: Os usuários podem pesquisar por serviços específicos utilizando palavras-chave ou categorias.
