@@ -1,8 +1,6 @@
-const router = require('express').Router();
 const UserSchema = require('../models/userAccount')
 
-
-router.post('/create_user', async(request, response) => {
+async function createUSer(request, response) {
     var user = request.body;
 
     const dataUser = await UserSchema.create(user)
@@ -16,9 +14,8 @@ router.post('/create_user', async(request, response) => {
             return response.status(201).json({
                 error: error, 
                 message: 'Houve algum problema',
-                dataUser
             })
         });
-})
+}
 
-module.exports = router;
+module.exports = createUSer;
