@@ -1,3 +1,48 @@
+.header {
+    padding: 5px;
+    height: 2rem;
+}
+
+.navegator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navItems .li {
+    color: #454750;
+    text-decoration: none;
+    list-style: none;
+    margin-left: .7rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navItems .li:hover {
+    cursor: pointer;
+    color: #67E9B5;
+    transition: all .3s;
+}
+
+@media (max-width: 740px) {
+    .navItems {
+        display: none;   
+    }
+
+    .loginArea button {
+        display: none;
+    }
+}
+
+
+
+
 .footer {
     margin: 5rem 0;
     background-color: #59D6AA;
@@ -37,16 +82,28 @@
 }
 
 .footerAbout  {
-    background-color: #9BA4B5;
-    margin: 0;
+    margin: 0 5rem;
     padding-bottom: 1rem;
 }
 
 .aboutList {
     display: flex;
-    list-style: none;
-    text-decoration: none;
+    justify-content: space-between;
     gap: .5rem;
+}
+
+.aboutList li  {
+    list-style: none;
+}
+
+.aboutList li a {
+    text-decoration: none;
+    color: #273252;
+}
+
+.aboutList li a:hover {
+    text-decoration: underline;
+    color: #273252;
 }
 
 @media (max-width: 740px) {
@@ -76,6 +133,11 @@
 
     .headerContent {
         margin: 0;
+    }
+
+    .footerAbout  {
+        margin: 0;
+        padding-bottom: 1rem;
     }
 
     .aboutList {

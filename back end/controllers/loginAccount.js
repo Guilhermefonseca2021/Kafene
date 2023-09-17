@@ -2,7 +2,7 @@ const connectDataBase = require('../database/connect')
 
 const User = require('../models/userAccount')
 
-async function login({email, password}) {
+async function login({nome, email, password}) {
     const database = await connectDataBase()
     
     let myUser = null

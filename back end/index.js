@@ -12,8 +12,7 @@ const createUser = require('./controllers/managerUser');
 
 
 // routes
-app.use('/cadastrar', createUser)
-
+app.use('/create_user', createUser)
 
 // database
 const connectDataBase = require("./database/connect");

@@ -14,7 +14,18 @@ export default function Header() {
                 <NavLink to='/' className={styles.li}>Home </NavLink>
                 <NavLink to='About' className={styles.li}>About</NavLink>
                 <NavLink to='/' className={styles.li}>FAQs</NavLink>
+                <NavLink to='/create_user' className={styles.li}> Contact us</NavLink>
             </ul>
+
+            <div className={styles.loginArea}>
+                <p>
+                    Merchant Partner
+                </p>
+                
+                <NavLink to='/create_user'> 
+                    <button> Login </button>
+                </NavLink>
+            </div>
             </nav>
         </div>
     )

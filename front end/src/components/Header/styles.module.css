@@ -19,7 +19,9 @@
     color: #454750;
     text-decoration: none;
     list-style: none;
-    margin-left: .5rem;
+    margin-left: .7rem;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .navItems .li:hover {
@@ -28,8 +30,36 @@
     transition: all .3s;
 }
 
+.loginArea {
+    display: flex;
+}
+
+.loginArea p {
+    color: #67E9B5;
+}
+
+.loginArea button {
+    padding: .5rem;
+    margin-left: 15px;
+    color: #67E9B5;
+    width: 4rem;
+    cursor: pointer;
+
+    border: 1px solid #67E9B5;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.loginArea button:hover {
+    background-color: #67E9B5;
+    color: aliceblue;
+}
+
 @media (max-width: 740px) {
     .navItems {
         display: none;   
+    }
+
+    .loginArea button {
+        display: none;
     }
 }

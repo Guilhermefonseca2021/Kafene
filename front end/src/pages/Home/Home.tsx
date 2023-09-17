@@ -18,7 +18,7 @@ export default function Home() {
             Kafene helps all consumers buy the thing they want over time,
             affordably. Credit and no credt check options are available.
           </p>
-          <NavLink to='/login'>
+          <NavLink to='/create_user'>
             <button>Start your Application</button>
           </NavLink>
           
