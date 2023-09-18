@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express");
 const app = express();
 const routes = require('./routes')
@@ -20,4 +21,4 @@ connectDataBase()
 
 
 // server
-app.listen(3333, console.log("servidor online"))
+app.listen(3333, console.log("Servidor online"))

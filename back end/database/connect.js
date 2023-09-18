@@ -1,4 +1,6 @@
 const mongoose = require('mongoose')
+const dbuser = process.env.DB_USER
+const dbpassword = process.env.DB_PASSWORD
 
 async function connectDataBase() {
     await mongoose
