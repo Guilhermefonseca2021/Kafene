@@ -30,9 +30,13 @@ async function loginAnthentication(request, response) {
     }
 
     try {
+        // find my hash to Login user
         const token = jwt.sign({ id: user.id}, process.env.JWT_PASS ?? '', { 
             expiresIn: '7d',
         })
+
+        console.log(token)
+
         const { password: _, ...UserLogin } = user
 
         return response.json({
@@ -42,13 +46,10 @@ async function loginAnthentication(request, response) {
     } catch(error) {
         console.log(error)
     }
-}   
+}
 
 async function getProfile(request, response) {
 
 }
 
-module.exports = { 
-    loginAnthentication,
-    getProfile,
-};
+module.exports = loginAnthentication;
