@@ -1,35 +1,27 @@
 # Venda de Serviços 
 
-<a align="center"> 
-  <a href="##Funcionalidades"> Funcionalidades </a> 
-  <a href="##Tecnologias"> Tecnologias </a>
-  <a href="##Pré-requisitos"> Pre-requisitos </a>
-  <a href="##Rodando"> rodar alpicacao </a>
-  <a href="##Contribuição"> Licenca do MIT </a>
+<a align="center">   
+  <a href="#Tecnologias"> Tecnologias </a>
+  <a href="#Pré-requisitos"> Pre-requisitos </a>
+  <a href="#Rodando Front-end"> rodar alpicacao </a>
+  <a href="#Contribuição"> Licenca do MIT </a>
 </p>
 
 ## Featurees
 
-* [x] paginas e rotas
-* [x] responsividade
-* [x] login de usuarios
-* [ ] deletar contas
+* [x] Paginas e rotas
+* [x] Responsividade
+* [x] cadastro de usuarios
+* [ ] Contratação de serviços
+* [ ] Avaliação de profissionais
 * [ ] envios de email
-      
+* [ ] Busca de serviços
+
+<img width="1567" alt="-kafene-presents" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0">
 
 ## Descrição do Projeto
 Este projeto consiste em um site de venda de serviços, onde os usuários podem encontrar e contratar profissionais para realizar diversos tipos de serviços.
 
-<h1 align="center">
-![2023-09-16 00-31-32 (3)](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/ea74a947-0146-4ad6-9734-84eef5b94c64)
-</h1>
-
-## 🚀 Funcionalidades
-- Cadastro de usuários: Os usuários podem criar uma conta no site, fornecendo informações como nome, e-mail e senha.
-- Busca de serviços: Os usuários podem pesquisar por serviços específicos utilizando palavras-chave ou categorias.
-- Visualização de perfis: Os usuários podem visualizar os perfis dos profissionais que oferecem os serviços, incluindo informações como experiência, qualificações e avaliações de outros clientes.
-- Contratação de serviços: Os usuários podem contratar os serviços desejados diretamente pelo site, entrando em contato com o profissional escolhido.
-- Avaliação de profissionais: Após a conclusão do serviço, os usuários podem avaliar e deixar um feedback sobre a experiência com o profissional contratado.
 
 ## 🛠️ Tecnologias 
 - [Typescript](https://www.typescriptlang.org/)
@@ -61,9 +53,7 @@ $  npm run dev
 
 <a href="https://kafene-ten.vercel.app/">Testar aplicacao agora. </a>
 
-<img width="1567" alt="-kafene-presents" src="https://github.com/Guilhermefonseca2021/kafene/assets/92196697/bbf6639e-e766-49c9-b3b6-846b40a007e0">
-
-
+![2023-09-16 00-31-32 (3)](https://github.com/Guilhermefonseca2021/kafene/assets/92196697/ea74a947-0146-4ad6-9734-84eef5b94c64)
 
 made with 💜 by GUILHERME FONSECA 👋 [See my linkedIn]
 ## Contribuição
