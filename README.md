@@ -1,10 +1,17 @@
 # Venda de Serviços 
 
 <a align="center">   
+<<<<<<< HEAD
   <a href="#🛠️-tecnologias"> Tecnologias </a> / 
   <a href="#pré-requisitos"> Pre-requisitos </a> / 
   <a href="#🎲-rodando-front-end"> rodar aplicacao </a> / 
   <a href="#contribuição"> Licenca do MIT </a> / 
+=======
+  <a href="#Tecnologias"> Tecnologias </a>
+  <a href="#Pré-requisitos"> Pre-requisitos </a>
+  <a href="#Rodando Front-end"> rodar alpicacao </a>
+  <a href="#Contribuição"> Licenca do MIT </a>
+>>>>>>> a3a7326ffb19799b78c330a622cb46be0884a0a0
 </p>
 
 ## Featurees
