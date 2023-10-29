@@ -1,8 +1,10 @@
 const routes = require('express').Router();
-const createUser = require('./controllers/CreateUserController')
-const loginAnthentication = require('./controllers/LoginUserController')
+const { createUser } = require('./src/controllers/CreateUserController')
+const { loginAnthentication, getProfile } = require('./src/controllers/LoginUserController')
 
-routes.post('/create_user', createUser)
-
+routes.post('/register', createUser)
 routes.post('/login', loginAnthentication)
+routes.get('/profile', getProfile)
+
+
 module.exports = routes;

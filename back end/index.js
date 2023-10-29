@@ -1,7 +1,7 @@
-require('dotenv').config()
 const express = require("express");
 const app = express();
 const routes = require('./routes')
+const config = require('./src/config/database')
 
 const cors = require("cors");
 
@@ -13,7 +13,7 @@ app.use(cors());
 app.use(routes)
 
 // database
-const connectDataBase = require("./database/connect");
+const connectDataBase = require('./src/database/connect');
 
 connectDataBase()
     .then(() => { console.log('Conectado ao banco')})
@@ -21,4 +21,4 @@ connectDataBase()
 
 
 // server
-app.listen(3333, console.log("Servidor online"))
+app.listen(config.port, console.log("Servidor online"))
