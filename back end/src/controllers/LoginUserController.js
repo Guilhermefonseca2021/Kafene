@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
 const authConfig = require('../config/auth')
 
-async function loginAnthentication(request, response) {
+async function loginAuthentication(request, response) {
     const { email, password } = request.body
     
     if(!email) {
@@ -16,7 +16,7 @@ async function loginAnthentication(request, response) {
     }
 
     const user = await UserSchema.findOne({ email })
-    
+
     if(!user) {
         return response.status(422).json({ msg: 'Email ou senha invalidos.'})
     }
@@ -29,7 +29,6 @@ async function loginAnthentication(request, response) {
     }
 
     try {
-        // authentication my user
         const token = jwt.sign({ id: user.id }, authConfig.secret ?? '', { 
             expiresIn: authConfig.expiresIn,
         })
@@ -39,7 +38,7 @@ async function loginAnthentication(request, response) {
         return response.json({
             user: UserLogin,
             token: token
-        })
+        }) 
         
     } catch(error) {
         console.log(error)
@@ -47,16 +46,10 @@ async function loginAnthentication(request, response) {
 }
 
 async function getProfile(request, response) {
-    const { authorization } = request.headers
-
-    if(!authorization) {
-        return response.status(401).json({ error: 'Nao autorizado '})
-    }
-    
-    console.log(authorization)
+    return response.json(request.user)
 }
-
+ 
 module.exports = {
-    loginAnthentication,
+    loginAuthentication,
     getProfile
-};
+}; 

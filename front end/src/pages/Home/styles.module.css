@@ -49,10 +49,24 @@ body {
 }
 
 .board {
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.board h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 400;
+    word-spacing: 10px;
+}
+
+.board p {
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .boardItems {
