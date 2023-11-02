@@ -30,12 +30,11 @@ const createUserFormSchema = z.object({
 
 type createUserFormData = z.infer<typeof createUserFormSchema>
 
-export default function CreateLogin() {
+export default function Register() {
   const { register, handleSubmit, formState: { errors } } = useForm<createUserFormData>({
-    // resolver passar nossas regras de validacao do nosso hook
     resolver: zodResolver(createUserFormSchema)
   })
-
+  
   const [user, setUser] = useState('')
 
   function createUser(data: createUserFormData) {
@@ -45,7 +44,7 @@ export default function CreateLogin() {
   }
 
   function submitUser() {
-    APIserver.post('/create_user', {
+    APIserver.post('/register', {
       user
     }).then(response => {
       console.log(response)
@@ -58,7 +57,6 @@ export default function CreateLogin() {
         <div className="login-diver">
           <h1>Login</h1>
 
-          {/* hight other function( funcao para outra funcao) */}
           <form onSubmit={handleSubmit(createUser)}>
             <label htmlFor="">Nome:</label>
             <input

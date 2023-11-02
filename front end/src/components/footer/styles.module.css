@@ -75,6 +75,12 @@
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    transition: all .3s linear;
+}
+
+.headerContent button:hover {
+    background-color: #176B87;
+    color: #DAFFFB;
 }
 
 .footerAbout {

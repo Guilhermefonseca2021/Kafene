@@ -35,7 +35,7 @@ export default function Footer() {
                 <NavLink to='/' className={styles.li}>Home </NavLink>
                 <NavLink to='About' className={styles.li}>About</NavLink>
                 <NavLink to='/' className={styles.li}>FAQs</NavLink>
-                <NavLink to='/create_user' className={styles.li}> Contact us</NavLink>
+                <NavLink to='/register' className={styles.li}> Contact us</NavLink>
             </ul>
             </nav>
         </div>

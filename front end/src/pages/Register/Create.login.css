@@ -9,13 +9,14 @@
 }
 
 .content {
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 8px;
     display: flex;
     background-color: #273252;
     color: #fff;
 
-    max-width: 700px;
+    max-width: 800px;
+    width: 400px;
     font-size: 400;
     justify-content: center;
     flex-direction: column;
@@ -34,7 +35,6 @@
 
 .container .content form {
     display: flex;
-    
     flex-direction: column;
 }
 
@@ -44,7 +44,8 @@
 
 .container .content form input {
     padding: .5rem;
-    margin: .5rem 0;
+    width: 100%;
+    margin: .4rem 0;
 
     outline: none;
     border-radius: 8px;
@@ -53,6 +54,7 @@
 
 .container .content form button {
     padding: .5rem;
+    width: 108%;
     cursor: pointer;
     color: #273252;
 

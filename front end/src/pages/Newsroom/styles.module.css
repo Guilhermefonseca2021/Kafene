@@ -1,0 +1,14 @@
+.container-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-box {
+    max-width: 980px;
+    padding: 1.5rem;
+    font-weight: 400;
+    color: #273252;
+}
